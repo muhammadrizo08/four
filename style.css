@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    height: 100vh;
+     
+}
+.container{
+    width: 100%;
+    height: 658px;
+     
+    background-image: url("./clivke.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+ .s1{
+    margin-left: 750px;
+    font-size: 25px;
+    margin-top: 300px;
+ }
+nav>h1{
+    font-size: 30px;
+    margin-left: 100px;
+}
+nav{
+    color: #fff;
+    background-color: transparent;
+    display: flex;
+    height: 80px;
+    width: 100%;
+    align-items: center;
+}
+.ul{
+    display: flex;
+    
+}
+li{
+    margin-left: 10px;
+    list-style-type: none;
+     font-size: 17px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.container2{
+    width: 100%;
+    height: 500px;
+    
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     padding-left: 100px;
+     padding-top: 65px;
+}
+.card{
+    width: 300px;
+    height: 350px;
+    
+    background-image: url("./models.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+video{
+    width: 1350px;
+    height: 700px;
+    
+    
+    
+}
+.container3{
+    
+    height: 500px;
+    display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     color: grey;
+     grid-gap: 0;
+     
+    }
+    .btn{
+        width: 200px;
+        height: 50px;
+        background-color: blue;
+         border: none;
+        color: #fff;
+        font-size: 16px;
+        margin-top: 20px;
+    }
+    .btn2{
+        width: 200px;
+        height: 50px;
+        background-color: blue;
+        border: none;
+        
+        color: #fff;
+        font-size: 16px;
+        margin-top: 20px;
+    }
+    .text{
+        width: 625px;
+        height: 100%;
+        
+        margin-left: 50px;
+        padding-top: 70px;
+    }
+    .image{
+        width: 620px;
+        height: 100%;
+        
+        margin: 0;
+        background-image: url("./s10.webp");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    img{
+        width: 90%;
+        height: 300px;
+        margin-left: 70px;
+    }
+     .container4{
+     width: 100%;
+     height: 650px;
+    
+     background-color: rgb(20, 19, 19);
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     padding-left: 100px;
+}
+.group{
+    width: 300px;
+    height: 200px;
+    
+    
+    margin-top: 70px;
+    
+}
+.cars{
+    width: 300px;
+    height: 500px;
+
+    margin-top: 70px;
+    
+}
+.group>h2{
+    margin-top:8px ;
+}
+.cars>h2{
+    margin-top:8px ;
+}
+@media (max-width:959px){
+    .ul{
+        display: none;
+    }
+    .s1{
+        margin-left: 70px;
+        font-size: 12px;
+    }
+    
+    video{
+        width: 700px;
+        height: 400px;
+        margin-left: 0;
+    }
+    .container3{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    img{
+        width: 60%;
+        height: 300px;
+        object-fit: cover;
+        margin-left: 0;
+    }
+    .container4{
+        display: grid;grid-template-columns: repeat(1, 1fr);
+    }
+    .card{
+        margin-left: 0;
+    }
+    .container2{
+        margin-left: 0;
+    }
+    .image{
+         display: none;
+         
+    }
+}
